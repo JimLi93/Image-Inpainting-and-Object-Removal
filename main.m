@@ -6,7 +6,7 @@ type = input("");
 %%% Beach couple
 if(type == 1)
     %%% Read image
-    original_img = im2double(imread('beach3.jpg'));
+    original_img = im2double(imread('img/beach3.jpg'));
 
     %%% Show the image
     imshow(original_img, 'InitialMagnification',1000);
@@ -24,7 +24,7 @@ if(type == 1)
 %%% Blurred lake kid
 elseif(type == 2)
     %%% Read image
-    original_img = im2double(imread('4.jfif'));
+    original_img = im2double(imread('img/4.jfif'));
 
     %%% Show the image
     imshow(original_img, 'InitialMagnification',1000);
@@ -41,7 +41,7 @@ elseif(type == 2)
 %%% Ocean bridge
 elseif(type == 3)
     %%% Read image
-    original_img = im2double(imread('3.jpg'));
+    original_img = im2double(imread('img/3.jpg'));
 
     %%% Show the image
     imshow(original_img, 'InitialMagnification',1000);
@@ -58,7 +58,7 @@ elseif(type == 3)
 %%% buffalo
 elseif(type == 4)
     %%% Read image
-    original_img = im2double(imread('1.jpg'));
+    original_img = im2double(imread('img/1.jpg'));
 
     %%% Show the image
     imshow(original_img, 'InitialMagnification',1000);
@@ -76,7 +76,7 @@ elseif(type == 4)
 %%% Zoo
 elseif(type == 5)
     %%% Read image
-    original_img = im2double(imread('11.jpg'));
+    original_img = im2double(imread('img/11.jpg'));
 
     %%% Show the image
     imshow(original_img, 'InitialMagnification',1000);
@@ -94,7 +94,7 @@ elseif(type == 5)
 %%% Beach couple
 else 
     %%% Read image
-    original_img = im2double(imread('beach3.jpg'));
+    original_img = im2double(imread('img/beach3.jpg'));
 
     %%% Show the image
     imshow(original_img, 'InitialMagnification',1000);
@@ -112,7 +112,7 @@ else
 
 
 %%% Red wall
-% original_img = im2double(imread('4.jpg'));
+% original_img = im2double(imread('img/4.jpg'));
 % %%% Create mask. Inpainted part = 0
 % mask = create_mask(original_img, 750,1900,1700,2350);
 % patch_size = 25;
@@ -120,14 +120,14 @@ else
 
 
 % %% rainbow
-% original_img = im2double(imread('8.jpg'));
+% original_img = im2double(imread('img/8.jpg'));
 % %%% Create mask. Inpainted part = 0
 % mask = create_mask(original_img, 75,465,375,515);
 % patch_size = 45;
 % boundary_size = 5;
 
 % %%% rainbow
-% original_img = im2double(imread('9.jpg'));
+% original_img = im2double(imread('img/9.jpg'));
 % %%% Create mask. Inpainted part = 0
 % mask = create_mask(original_img, 625,855,915,1045);
 % % mask = create_mask(original_img, 225,325,1515,1575);
@@ -135,7 +135,7 @@ else
 % boundary_size = 5;
 
 %%% Giraffe
-% original_img = im2double(imread('7.jpg'));
+% original_img = im2double(imread('img/7.jpg'));
 % %%% Create mask. Inpainted part = 0
 % imshow(original_img, 'InitialMagnification',1000);
 % % mask = create_mask(original_img, 325,605,305,430);
@@ -149,7 +149,7 @@ else
 
 
 %%% first page
-% original_img = im2double(imread('10.JPG'));
+% original_img = im2double(imread('img/10.JPG'));
 % %%% Create mask. Inpainted part = 0
 % % mask = create_mask(original_img, 625,855,915,1045);
 % mask = create_mask(original_img, 190,310,285,355);
